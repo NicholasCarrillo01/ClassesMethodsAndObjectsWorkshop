@@ -9,5 +9,15 @@ public class Main {
 
         System.out.println("the name of my cat is abby: " + myCat.getPetName());
 
+
+        myCat.setWhiskers(true);
+        System.out.println("does this cat have whiskers?" + myCat.isWhiskers());
+
+        System.out.println(myCat.makeSound());
+
+        System.out.println(myCat.catYears());
+
+
+
     }
 }

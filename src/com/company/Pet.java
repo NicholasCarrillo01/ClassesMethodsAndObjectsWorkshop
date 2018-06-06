@@ -56,4 +56,16 @@ String homeAddress;
     public void setHomeAddress(String homeAddress) {
         this.homeAddress = homeAddress;
     }
+
+    protected String makeSound() {
+
+        return "pets have no sound";
+    }
+
+
+
+
+
+
 }
+
